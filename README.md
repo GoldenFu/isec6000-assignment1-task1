@@ -2,18 +2,20 @@
 
 ## 1. Create a Kubernetes Cluster on GKE
 
-step 1. Open the Google Cloud and log in my google console
+1. Open the Google Cloud and log in my google console
 
 
 ![googleConsole](https://github.com/GoldenFu/isec6000-assignment1-task1/assets/111740505/a26f71e7-b182-4240-833d-11869ec78b4d)
 
+2. Navigate to the Kubernetes Engine and create a cluster
+
+   ![cluster02](C:\Users\golde\OneDrive\桌面\cluster02.png)
+
+   
 
 
-step2. Navigate to the Kubernetes Engine section and click "Create Cluster.". Configure your cluster settings, such as the cluster name, location, and node pool  configuration. Choose the desired Kubernetes version. Click "Create" to provision your GKE cluster. (Sorry I cannot show the progress of creating the cluster because I have already done it, here is the cluster)
 
-![cluster-1](https://github.com/GoldenFu/isec6000-assignment1-task1/assets/111740505/35a4825f-de48-4b1b-8799-b872d9fcbd3f)
-
-![cluster-2](https://github.com/GoldenFu/isec6000-assignment1-task1/assets/111740505/a8ac1161-7fc3-4b1e-a9eb-e88d60f5cd48)
+![cluster03](C:\Users\golde\OneDrive\桌面\cluster03.png)
 
 
 
@@ -21,20 +23,37 @@ step2. Navigate to the Kubernetes Engine section and click "Create Cluster.". Co
 
 ## 2. Install and configure kubectl to manage your Kubernetes cluster
 
-![2](https://github.com/GoldenFu/isec6000-assignment1-task1/assets/111740505/63206508-2de7-47e3-8343-5a8fe03f9abe)
+1. Login into Google cloud console
+
+   ![task1-2-01](C:\Users\golde\OneDrive\桌面\task1-2-01.png)
 
 
+
+2.Navigate to the Kubernetes Engine
+
+![task1-2-02](C:\Users\golde\OneDrive\桌面\task1-2-02.png)
+
+
+
+3.click the "connect" button next to the cluster.
+
+![task1-2-03](C:\Users\golde\OneDrive\桌面\task1-2-03.png)
+
+
+
+4. Select the Command-line access 
+
+   ![task1-2-04](C:\Users\golde\OneDrive\桌面\task1-2-04.png)
 
 
 
 
 ## 3.Set up a private GitHub repository to store your project files.
 
-![repo](https://github.com/GoldenFu/isec6000-assignment1-task1/assets/111740505/09bfcbdd-0789-42d4-91bd-d3940035dfb7)
+Login the github, and click the "+" button and create a new repository and named it "isec6000-assignment1-task1", and then modify the README.md.
+
+![github-login](C:\Users\golde\OneDrive\桌面\github-login.png)
 
 
 
 
-
-
-Here is the repository I created.
